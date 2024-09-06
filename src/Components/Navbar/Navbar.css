@@ -1,0 +1,110 @@
+.navbar{
+   display: flex; 
+   justify-content: space-around;
+   padding: 3px;
+   box-shadow: 0 1-x 3px -2px black;
+}
+
+.nav-logo img{
+    width: 50px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p{
+    font-size: 36px;
+    color: #171717;
+    font-weight: 600;
+}
+
+.nav-menu{
+   display: flex; 
+   gap: 50px;
+   align-items: center;
+   list-style: none;
+   font-size: 20px;
+   font-weight: 500;
+   color: #626262;
+}
+
+.nav-menu li{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    gap: 3px;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #ff4141;
+}
+
+.nav-login-cart{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+/*.nav-login-cart {
+    width: 50px;
+}*/
+
+.nav-login-cart button{
+    border: 1px soldi #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    background: white;
+    width: 157px;
+    height: 55px;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-login-cart button:active{
+    background: #ff4141;
+
+}
+
+.nav-count{
+    display: flex;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    justify-content: center;
+    background: red;
+    position: relative;
+    bottom: 33px;
+    border-radius: 50%;
+    right: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nav-cart-county{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-cart-county img{
+    width: 90px;
+}
+
+
+
+
+
+
+
+
